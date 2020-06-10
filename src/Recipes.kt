@@ -9,8 +9,8 @@ class Mushroom(val size : Int, val isMagic : Boolean) {
     }
 }
 
-fun findRecipes(title: String = "",
-                ingredient: String = "",
+fun findRecipes (title: String = "",
+                 ingredient: String = "",
                 isVegetarian: Boolean = false,
                 difficulty: String = "") : Array<Recipe> {
     //Код поиска рецептов
